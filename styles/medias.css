@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@media(min-width: 481px) and (max-width: 768px){
+    body{
+        background: linear-gradient(to top, rgb(0, 86, 156),rgb(79, 44, 175), rgb(121, 72, 255));
+    }
+}
+
+@media(min-width: 769px) and (max-width: 1024px){
+    body{
+        background: linear-gradient(to top, rgb(0, 86, 156),rgb(79, 44, 175), rgb(121, 72, 255));
+    }
+    #login{
+        flex-direction: row;
+        width: 600px;
+    }
+    #imagem{
+        width: 400px;
+        height: 500px;
+    }
+}
+@media(min-width: 1025px) and (max-width: 1200px){
+    body{
+        background: linear-gradient(to top, rgb(0, 86, 156),rgb(79, 44, 175), rgb(121, 72, 255));
+    }
+    #login{
+        flex-direction: row;
+        width: 800px;
+    }
+    #imagem{
+        width: 600px;
+        height: 500px;
+    }
+}
+@media(min-width: 1201px){
+    body{
+        background: linear-gradient(to top, rgb(0, 86, 156),rgb(79, 44, 175), rgb(121, 72, 255));
+    }
+    #login{
+        flex-direction: row;
+        width: 1000px;
+        height: 600px;
+    }
+    #imagem{
+        width: 700px;
+        height: 650px;
+    }
+}
